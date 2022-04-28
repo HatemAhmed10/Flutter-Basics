@@ -7,7 +7,6 @@ import 'modules/SignUp/SignUp.dart';
 
 void main()  async {
   //Bloc.observer = MyBlocObserver();
-// بيتأكد ان كل حاجه هنا في الميثود خلصت و بعدين يتفح الابلكيشن
   WidgetsFlutterBinding.ensureInitialized();
 
   await CacheHelper.init();
